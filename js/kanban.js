@@ -34,8 +34,7 @@ const create_item = () => {
       order +=1;
       item.innerHTML = input.value;
       adding = false;
-    }
-    else {
+    }else {
       error.innerHTML = message;
     }
   });
